@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pattaya&display=swap');
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('../img/headerbg.jpg') right/cover;
+    height: 100vh;
+}
+nav {
+    text-align: center;
+}
+nav ul { padding: 10px 0 0 0; }
+nav ul li a {
+    font: 1.1em 'Bebas Neue', cursive;
+    color: #e6e1bc;
+}
+nav ul li #party { font: italic 1.7em 'Pattaya', sans-serif;}
+#container {
+    width: 90%;
+    text-align: center;
+    align-self: center;
+}
+#container h1 {
+    font: bold 2em 'Bebas Neue', cursive;
+    color: #FFF;
+    padding: 0 50px;
+}
+#heads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#heads h3 {
+    width: 40%;
+    font: bold 1.4em 'Bebas Neue', cursive;
+    color: #FFF;
+    border: 3px solid #FFF;
+    border-right: none;
+    border-left: none;
+}
+#heads h4 {
+    width: 60%;
+    font: bold 1em 'Bebas Neue', cursive;
+    color: #FFF;
+    border: 3px solid #FFF;
+    border-right: none;
+    padding: 0 10px;
+}
+#container p {
+    font: bold .9em 'Bebas Neue', cursive;
+    color: #FFF;
+    padding: 10px 20px;
+}
+#container button {
+    font: bold 1em 'Bebas Neue', cursive;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0);
+    padding: 5px 20px;
+    border: 2px solid #FFF;
+}
+#foot { text-align: center; }
+#foot span {
+    font: bold 1em 'Bebas Neue', cursive ;
+    color: #e6e1bc;
+}
+#foot a {
+    display: inline-block;
+    font: 1em 'Bebas Neue', cursive ;
+    color: #e6e1bc;
+    padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul li {
+        display:inline-block;
+        padding: 0 30px;
+    }
+    nav ul li a {
+        font: 1.4em 'Bebas Neue', cursive;
+        color: #e6e1bc;
+    }
+    nav ul li #party { font: italic 2em 'Pattaya', sans-serif;}
+    #container {
+        width: 340px;
+    }
+    #container h1 {
+        font: bold 3.5em 'Bebas Neue', cursive;
+        color: #e6e1bc;
+    }
+    #heads h3 {
+        width: 40%;
+        font: bold 2.4em 'Bebas Neue', cursive;
+        color: #e6e1bc;
+    }
+    #heads h4 {
+        width: 60%;
+        font: bold 1.6em 'Bebas Neue', cursive;
+        color: #e6e1bc;
+    }
+    #container p, #container button { font-size: 1.2em; color: #e6e1bc; }
+    #foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #foot span { padding: 0 0 0 20px; }
+}
