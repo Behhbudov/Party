@@ -4,7 +4,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     background: url('../img/headerbg.jpg') right/cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 nav { text-align: center; }
 nav ul { padding: 10px 0 0 0; }
